@@ -1,0 +1,56 @@
+ 
+        body {
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        #header {
+            background-color: white;
+            color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        #logo {
+            width: 100px; /* Imposta la dimensione del tuo logo */
+            height: auto; /* Per mantenere l'aspetto proporzionato */
+        }
+
+        #main-nav {
+            background-color: black;
+            color: white;
+            text-align: right;
+            padding: 10px 20px;
+        }
+
+        #main-content {
+            background-image: url('immagine.jpg'); /* Sostituisci 'immagine.jpg' con il percorso dell'immagine che desideri utilizzare */
+            background-size: cover;
+            background-position: center;
+            color: black;
+            text-align: center;
+            height: 50vh; /* Regola l'altezza dell'immagine a metà dello schermo o come preferisci */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #main-content h1 {
+            font-size: 36px;
+        }
+
+        #rectangular-photos {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        #rectangular-photos img {
+            width: 300px; /* Imposta la dimensione delle tue immagini rettangolari */
+            height: auto;
+        }
